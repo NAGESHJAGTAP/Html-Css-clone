@@ -1,0 +1,96 @@
+<html>
+<head> 
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:black;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .calculator {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            width: 300px;
+        }
+        .display {
+            grid-column: span 4;
+            background-color: #333232;
+            color: white;
+            text-align: right;
+            padding: 20px;
+            font-size: 48px;
+            border-radius: 10px;
+        }
+        .button {
+            background-color: #666;
+            color: white;
+            font-size: 24px;
+            border: 1px;
+            border-radius: 60%;
+            padding: 20px;
+           
+        }
+        .button.ye {
+            background-color: #f90;
+        }
+        .button.zero {
+            grid-column: span 2;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+           
+    <div class="calculator">
+        <input type="text" class="display">
+        
+        <button class="button">C</button>
+        <button class="button">+/-</button>
+        <button class="button">%</button>
+        <button class="button ye">÷</button>
+        
+        <button class="button">7</button>
+        <button class="button">8</button>
+        <button class="button">9</button>
+        <button class="button ye">x</button>
+
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="button ye">-</button>
+
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button ye">+</button>
+        <button class="button zero">0</button>
+
+        <button class="button">,</button>
+        <button class="button ye">=</button>
+    </div>
+    
+</body>
+<script>
+
+</script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
